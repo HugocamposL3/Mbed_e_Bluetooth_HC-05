@@ -16,6 +16,9 @@ Para programar a placa Nucleo, será utilizado o compilador online chamado MBED,
 
 Nesse código não é utilizado funções complexas, o microntrolador só vai receber o caracter enviado para o bluetooth e fazer o que foi programado em poucas linhas. Primeiramente, import a biblioteca padrão do MBED.
 
+```javascript
+#include "mbed.h"
+```
 
 
 
