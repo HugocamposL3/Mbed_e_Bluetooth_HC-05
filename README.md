@@ -100,6 +100,35 @@ O circuito do projeto:
 
 <a href="https://imgur.com/MN3owUH"><img src="https://imgur.com/MN3owUH.jpg" title="source: imgur.com" /></a>
 
+- Pino RX do Bluetooth será ligado no pino PB_10 da Núcleo.
+- Pino TX do Bluetooth será ligado no pino PB_11 da Núcleo.
+- Para alimentar o Bluetooth foi utilizado a saída 3.3V da Núcleo.
+- Os leds serão ligados nos D10, D9 e D8 da Núcleo 
+- O GND é o mesmo para o circuito todo, foi utilizado o GND da Núcleo.
+
+## Aplicativo desse Projeto:
+
+O aplicativo desse projeto, está anexado no juntos com os outros arquivos e poderá ser exportado para o site do **KODULAR** [link](https://www.kodular.io/). 
+Ele tem o desgner da imagem abaixo e já está programado para enviar os caracteres que foram incluidos no código do MBED.
+
+<a href="https://imgur.com/7NILrWE"><img src="https://imgur.com/7NILrWE.jpg" title="source: imgur.com" /></a>
+
+Este aplicativo foi projetado para um celular com a tela que tem uma resolução de 2400x1080, se caso a tela do celular for diferente dessa, pode ser que
+o aplicativo fique um pouco distorcido. 
+
+# Conclusão:
+
+Pronto o projeto foi finalizado e está pronto para ser testado, o aplicativo é bem simples de utilizar e a ligação também não é dificil. Se tiver qualquer erro
+ou não ter entendido algum passo desse tutorial entre em contato com o autor via E-mail, para tirar dúvidas.
+
+
+# Autor:
+- Hugo Campos
+- E-mail: camposhugo029@gmail.com
+- Data: 11/03/2021
+
+
+
 
 
 
