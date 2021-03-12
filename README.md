@@ -86,6 +86,22 @@ while(1)
 Primeiro o código verifica se o bluetooth está operando, se sim, o código vai gravar na variavel **ch** o dado que foi enviado para o bluetooth e logo após é
 uma sequência de **else if** que irão ligar ou desligar os leds. 
 
+## Esquemático das ligações:
+
+Essas são os componentes utilizados nesse projeto:
+
+- 1 Bluetooth HC-05.
+- 1 Placa Núcleo-f103RB.
+- 3 Leds.
+- 3 Resistores de 270Ohm ou parecido.
+- 1 Protoboard.
+
+O circuito do projeto:
+
+<a href="https://imgur.com/1E1OKQU"><img src="https://imgur.com/1E1OKQU" title="source: imgur.com" /></a>
+
+
+
 
 
 
