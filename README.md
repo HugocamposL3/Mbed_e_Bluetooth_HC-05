@@ -98,7 +98,7 @@ Essas são os componentes utilizados nesse projeto:
 
 O circuito do projeto:
 
-<a href="https://imgur.com/MN3owUH"><img src="https://imgur.com/MN3owUH" title="source: imgur.com" /></a>
+<a href="https://imgur.com/MN3owUH"><img src="https://imgur.com/MN3owUH.jpg" title="source: imgur.com" /></a>
 
 
 
