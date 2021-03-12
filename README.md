@@ -1,4 +1,4 @@
-# Utilizando o Bluetooth HC-05 com a Placa Núcleo STM-32
+# Bluetooth HC-05 com a Placa Núcleo STM-32
 
 ## Objetivo:
 
