@@ -1,20 +1,20 @@
-# Bluetooth HC-05 com a Placa Núcleo STM-32
+# Bluetooth HC-05 com a Placa NUCLEO STM-32
 
 ## Objetivo:
 
-- Ligar e desligar três leds comandados por dados enviados via bluetooth HC-05 e a placa Núcleo-F103RB.
+- Ligar e desligar três leds comandados por dados enviados via bluetooth HC-05 e a placa NUCLEO-F103RB.
 
 ## Introdução:
 
 Neste tutorial será apresentado como controlar três leds com bluetooth HC-05 e também como criar um aplicativo para que esse controle seja feito com o smartphone.
 
-### Programando com MBED:
+### Programando com mBed:
 
-Para programar a placa Nucleo, será utilizado o compilador online chamado MBED, é necessário fazer o login no site do fornecedor [link](https://os.mbed.com/) e logo após abrir o compilador online para começar o seu código, nesse tutorial o autor entende que o leitor já tem o básico para programar na plataforma online MBED, então por isso ele não vai colocar o passo a passo para isso. 
+Para programar a placa NUCLEO, será utilizado o compilador online chamado mBed, é necessário fazer o login no site do fornecedor [link](https://os.mbed.com/) e logo após abrir o compilador online para começar o seu código, nesse tutorial o autor entende que o leitor já tem o básico para programar na plataforma online mBed, então por isso ele não vai colocar o passo a passo para isso. 
 
 ### Escrevendo o Código:
 
-Nesse código não é utilizado funções complexas, o microntrolador só vai receber o caracter enviado para o bluetooth e fazer o que foi programado em poucas linhas. Primeiramente, import a biblioteca padrão do MBED.
+Nesse código não é utilizado funções complexas, o microntrolador só vai receber o caracter enviado para o bluetooth e fazer o que foi programado em poucas linhas. Primeiramente, import a biblioteca padrão do mBed.
 
 ```javascript
 #include "mbed.h"
@@ -26,7 +26,7 @@ DigitalOut led1 (D10);
 DigitalOut led2 (D9);
 DigitalOut led3 (D8);
 ``` 
-Agora declare as portas que serão utilzadas para comunicação TX,RX entre o Bluetooth e a placa Núcleo, nesse caso é utilizado as portas PB10 E PB11.
+Agora declare as portas que serão utilzadas para comunicação TX,RX entre o Bluetooth e a placa NUCLEO, nesse caso é utilizado as portas PB10 E PB11.
 
 ```javascript
 Serial bt (PB_10, PB_11); 
@@ -91,7 +91,7 @@ uma sequência de **else if** que irão ligar ou desligar os leds.
 Essas são os componentes utilizados nesse projeto:
 
 - 1 Bluetooth HC-05.
-- 1 Placa Núcleo-f103RB.
+- 1 Placa NUCLEO-f103RB.
 - 3 Leds.
 - 3 Resistores de 270Ohm ou parecido.
 - 1 Protoboard.
@@ -100,16 +100,16 @@ O circuito do projeto:
 
 <a href="https://imgur.com/MN3owUH"><img src="https://imgur.com/MN3owUH.jpg" title="source: imgur.com" /></a>
 
-- Pino RX do Bluetooth será ligado no pino PB_10 da Núcleo.
-- Pino TX do Bluetooth será ligado no pino PB_11 da Núcleo.
-- Para alimentar o Bluetooth foi utilizado a saída 3.3V da Núcleo.
-- Os leds serão ligados nos D10, D9 e D8 da Núcleo 
-- O GND é o mesmo para o circuito todo, foi utilizado o GND da Núcleo.
+- Pino RX do Bluetooth será ligado no pino PB_10 da NUCLEO.
+- Pino TX do Bluetooth será ligado no pino PB_11 da NUCLEO.
+- Para alimentar o Bluetooth foi utilizado a saída 3.3V da NUCLEO.
+- Os leds serão ligados nos D10, D9 e D8 da NUCLEO
+- O GND é o mesmo para o circuito todo, foi utilizado o GND da NUCLEO.
 
 ## Aplicativo desse Projeto:
 
 O aplicativo desse projeto, está anexado no juntos com os outros arquivos e poderá ser exportado para o site do **KODULAR** [link](https://www.kodular.io/). 
-Ele tem o desgner da imagem abaixo e já está programado para enviar os caracteres que foram incluidos no código do MBED.
+Ele tem o desgner da imagem abaixo e já está programado para enviar os caracteres que foram incluidos no código do mBed.
 
 <a href="https://imgur.com/7NILrWE"><img src="https://imgur.com/7NILrWE.jpg" title="source: imgur.com" /></a>
 
